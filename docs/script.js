@@ -22,12 +22,12 @@ document.body.appendChild(ARButton.createButton(renderer, { requiredFeatures: ['
 const loader = new THREE.TextureLoader();
 
 const textures = {
-  sun: loader.load('/textures/2k_sun.jpg'),
-  mercury: loader.load('/textures/2k_mercury.jpg'),
-  venus: loader.load('/textures/2k_venus_surface.jpg'),
-  earth: loader.load('/textures/2k_earth_daymap.jpg'),
-  moon: loader.load('/textures/2k_moon.jpg'),
-  mars: loader.load('/textures/2k_mars.jpg')
+  sun: loader.load('docs/textures/2k_sun.jpg'),
+  mercury: loader.load('docs/textures/2k_mercury.jpg'),
+  venus: loader.load('docs/textures/2k_venus_surface.jpg'),
+  earth: loader.load('docs/textures/2k_earth_daymap.jpg'),
+  moon: loader.load('docs/textures/2k_moon.jpg'),
+  mars: loader.load('docs/textures/2k_mars.jpg')
 };
 
 // LIGHT
