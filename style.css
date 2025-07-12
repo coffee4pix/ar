@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  }
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#xr-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
