@@ -1,5 +1,5 @@
-import * as THREE from 'https://cdn.skypack.dev/three';
-import { ARButton } from 'https://cdn.skypack.dev/three/examples/jsm/webxr/ARButton.js';
+import * as THREE from 'three';
+import { ARButton } from 'three/examples/jsm/webxr/ARButton.js';
 
 // SCENE SETUP
 const scene = new THREE.Scene();
